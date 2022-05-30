@@ -7,7 +7,7 @@
 - ssh
 
 ### Docker
-Ваш ползователь должен быть в группе docker, чтобы использовать docker без sudo
+Ваш пользователь должен быть в группе docker, чтобы использовать docker без sudo
 https://github.com/sindresorhus/guides/blob/main/docker-without-sudo.md
 
 ### Ssh
