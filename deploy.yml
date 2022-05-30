@@ -1,0 +1,12 @@
+- name: Playbook copy builded app to server
+  hosts: primary_server
+  gather_facts: no
+
+  vars:
+    archive_path: "{{ arch_path }}"
+
+  tasks:
+  - name: Copy app to server
+    copy:
+      src: "{{ archive_path }}"
+      dest: ~/
